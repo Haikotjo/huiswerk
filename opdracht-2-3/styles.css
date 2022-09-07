@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F2F3D9;
+}
+
+.page-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+
+}
+
+.paragraph{
+    background-color: #C16E70;
+    margin: 10px;
+    display: inline-block;
+    max-width: 280px;
+    max-height: 350px;
+}
