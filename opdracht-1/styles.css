@@ -3,3 +3,85 @@
 ========================================================= */
 
 /* Schrijf hier  jouw CSS! */
+
+/*reset*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*opdracht 1*/
+
+.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    alignment: center;
+}
+
+/*opdrach 2*/
+
+.two {
+    display: flex;
+    flex-direction: row;
+    flex: fit-content;
+}
+.end-row {
+    flex: 1;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+}
+
+/*opdracht 3*/
+
+.three {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.three ul {
+    display: flex;
+    padding 20px;
+    gap: 10px;
+    flex-direction: row;
+}
+
+.list-item {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/*opdracht 4*/
+
+.login-formm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*opdracht 5*/
+
+    .five {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .box-item {
+        justify-content: space-between;
+        align-items: center;
+        flex-basis: fit-content;
+    /* op 1uur 40 even verder kijken   */
+    }
+
+
+
+
+
