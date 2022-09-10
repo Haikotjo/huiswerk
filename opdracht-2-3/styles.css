@@ -4,27 +4,59 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #F2F3D9;
+    font-family: 'Merriweather', serif;
 }
 
+header{
+    background-color: #030027;
+    font-family: 'Palanquin', sans-serif;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.menu{
+    display: flex;
+    margin-left: 100px;
+    flex-wrap: wrap;
+}
+
+.home, .menu{
+    color: #F2F3D9;
+}
+
+
 .page-top {
+    font-family: 'Merriweather', serif;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 40px;
 }
 
-.container{
+.container {
+
     display: flex;
     justify-content: center;
-
+    flex-direction: row;
 }
 
-.paragraph{
-    background-color: #C16E70;
-    margin: 10px;
-    display: inline-block;
+.container p {
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 25px;
+    background-color: indianred;
+    padding: 20px;
+    margin: 40px;
+    min-height: 350px;
+    max-height: 350 px;
     max-width: 280px;
-    max-height: 350px;
 }
+
